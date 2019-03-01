@@ -19,7 +19,7 @@ import (
 	"path/filepath"
 	"unicode"
 
-	"github.com/spf13/cobra"
+	"github.com/Beeketing/cobra"
 )
 
 func init() {
@@ -128,7 +128,7 @@ package {{.cmdPackage}}
 import (
 	"fmt"
 
-	"github.com/spf13/cobra"
+	"github.com/Beeketing/cobra"
 )
 
 // {{.cmdName}}Cmd represents the {{.cmdName}} command

@@ -128,7 +128,7 @@ along with the library and its dependencies:
 Next, include Cobra in your application:
 
 ```go
-import "github.com/spf13/cobra"
+import "github.com/Beeketing/cobra"
 ```
 
 # Getting Started
@@ -210,9 +210,9 @@ import (
   "fmt"
   "os"
 
-  homedir "github.com/mitchellh/go-homedir"
-  "github.com/spf13/cobra"
-  "github.com/spf13/viper"
+  homedir "github.com/Beeketing/go-homedir"
+  "github.com/Beeketing/cobra"
+  "github.com/Beeketing/viper"
 )
 
 func init() {
@@ -290,7 +290,7 @@ package cmd
 import (
   "fmt"
 
-  "github.com/spf13/cobra"
+  "github.com/Beeketing/cobra"
 )
 
 func init() {
@@ -435,7 +435,7 @@ import (
   "fmt"
   "strings"
 
-  "github.com/spf13/cobra"
+  "github.com/Beeketing/cobra"
 )
 
 func main() {
@@ -602,7 +602,7 @@ package main
 import (
   "fmt"
 
-  "github.com/spf13/cobra"
+  "github.com/Beeketing/cobra"
 )
 
 func main() {
