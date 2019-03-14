@@ -7,16 +7,16 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/spf13/viper"
+	"github.com/Beeketing/viper"
 )
 
-// TestGoldenAddCmd initializes the project "github.com/spf13/testproject"
+// TestGoldenAddCmd initializes the project "github.com/Beeketing/testproject"
 // in GOPATH, adds "test" command
 // and compares the content of all files in cmd directory of testproject
 // with appropriate golden files.
 // Use -update to update existing golden files.
 func TestGoldenAddCmd(t *testing.T) {
-	projectName := "github.com/spf13/testproject"
+	projectName := "github.com/Beeketing/testproject"
 	project := NewProject(projectName)
 	defer os.RemoveAll(project.AbsPath())
 

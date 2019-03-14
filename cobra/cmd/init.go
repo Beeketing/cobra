@@ -19,8 +19,8 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/spf13/cobra"
-	"github.com/spf13/viper"
+	"github.com/Beeketing/cobra"
+	"github.com/Beeketing/viper"
 )
 
 var initCmd = &cobra.Command{
@@ -144,8 +144,8 @@ import (
 	"os"
 {{if .viper}}
 	homedir "github.com/mitchellh/go-homedir"{{end}}
-	"github.com/spf13/cobra"{{if .viper}}
-	"github.com/spf13/viper"{{end}}
+	"github.com/Beeketing/cobra"{{if .viper}}
+	"github.com/Beeketing/viper"{{end}}
 ){{if .viper}}
 
 var cfgFile string{{end}}
